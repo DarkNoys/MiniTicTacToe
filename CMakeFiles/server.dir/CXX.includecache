@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/renesat/Project/MiniTicTacToe/src/server/server.cpp
+iostream
+-
+stdio.h
+-
+set
+-
+string.h
+-
+stdlib.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+pthread.h
+-
+

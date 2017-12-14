@@ -1,0 +1,1 @@
+/bin/c++    -rdynamic CMakeFiles/client.dir/client/client.o CMakeFiles/client.dir/client/mainClient.o CMakeFiles/client.dir/tictactoe/tictactoe.o  -o client -lncurses 

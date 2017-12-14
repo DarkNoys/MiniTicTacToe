@@ -1,0 +1,4 @@
+/home/renesat/Project/MiniTicTacToe/CMakeFiles/edit_cache.dir
+/home/renesat/Project/MiniTicTacToe/CMakeFiles/client.dir
+/home/renesat/Project/MiniTicTacToe/CMakeFiles/rebuild_cache.dir
+/home/renesat/Project/MiniTicTacToe/CMakeFiles/server.dir
