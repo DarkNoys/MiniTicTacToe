@@ -65,11 +65,12 @@ private:
 
   int currentCellX;
   int currentCellY;
+  std::string address;
 public:
 
   void erace();
 
-  Client();
+  Client(std::string addr = "127.0.0.1");
 
   ~Client() {
     endwin();

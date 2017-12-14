@@ -87,7 +87,9 @@ void Client::erace() {
            false);
 }
 
-Client::Client() {
+Client::Client(std::string addr) {
+
+	address = addr;
   endGame = false;
   currentCellX = 0;
   currentCellY = 0;
@@ -188,7 +190,7 @@ void Client::connectServ() {
 
   //Create socket
   sock = socket(AF_INET , SOCK_STREAM , 0);
-  server.sin_addr.s_addr = inet_addr("127.0.0.1");
+  server.sin_addr.s_addr = inet_addr(address.c_str());
   server.sin_family = AF_INET;
   server.sin_port = htons( 8967 );
 
