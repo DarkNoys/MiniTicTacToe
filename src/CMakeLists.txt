@@ -9,7 +9,7 @@ file(GLOB SERV "server/*.cpp")
 file(GLOB CLIE "client/*.cpp")
 file(GLOB TTTE "tictactoe/*.cpp")
 
-add_definitions( -std=c++11 -Wall -O2)
+add_definitions( -include time.h -std=c++11 -Wall -O2)
 
 add_executable(client ${CLIE} ${TTTE})
 target_link_libraries(client ncurses)	
